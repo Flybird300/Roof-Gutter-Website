@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.staff {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 4rem;
+}
+.text-staff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0;
+    }
+    .line {
+        width: 101px;
+        margin: 0 0.5rem;
+    }
+
+.staff .text-staff h1 {
+    font-family: sans-serif;
+    font-weight: 1000;
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2rem;
+}
+.staff-des {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+   gap: 100px;
+   margin-top: 4rem;
+   flex-wrap: wrap;
+}
+.staff-img:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+.staff-img {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: flex-start;
+   
+    width: 280px;
+    height: 450px;
+    border-radius: 5%;
+   
+  
+}
+.staff-img img {
+    width: 60%;
+   
+    border-radius: 5%;
+    opacity: 1;
+    object-fit:cover;
+    -o-object-fit: fill;
+}
+.barber-name h1{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.973);
+}
+.barber-name p {
+    font-size: 17px;
+    font-family: sans-serif;
+
+}
+.barber-name {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   white-space: nowrap;
+   padding-top: 2rem;
+   padding-bottom: 1rem;
+
+    
+}

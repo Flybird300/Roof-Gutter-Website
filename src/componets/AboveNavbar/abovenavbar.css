@@ -1,0 +1,35 @@
+.above {
+    display: flex;
+    background-color: rgb(7, 6, 77);
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    height: 3rem;
+    z-index: 10;
+    color:#000000;
+   
+}
+.above-button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 5%;
+  background: transparent;
+  border:none;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 21px;
+  font-family: roboto;
+
+  z-index: 200;
+}
+
+.above h2 {
+  font-size: 18px;
+ 
+  font-family:  sans-serif;
+}
+.down-icon {
+    width: 16px;
+}
+
