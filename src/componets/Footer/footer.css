@@ -1,4 +1,122 @@
 .footer {
-    height: 60vh;
-    background-color: rgba(7, 6, 77, 0.932);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    color:wheat;
+    background-color: rgb(0, 0, 0);
+}
+.footer-sec {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+   
+}
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.footer-logo img {
+    width: 240px;
+       
+}
+
+.footer ul li {
+    list-style: none;
+    font-size: 17px;
+    
+    
+
+}
+.footer ul {
+    display: flex;
+    padding: 0 0.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-down {
+    display: flex;
+    flex:0.8;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.footer-down .just-text p {
+    align-items: center;
+   text-align: center;
+   width: 100%;
+   font-size: 16px;
+   font-weight: 400;
+   margin-top: 5px;
+}
+.just-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+.footer-down .down-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-down .down-down p {
+   
+    padding: 0px 5px;
+    margin-bottom: 0.7rem;
+    color: #007bff;
+    font-family: sans-serif;
+}
+.footer-down .down-down p:hover {
+    transform: scale3d(1);
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.247);
+}
+.footer-sec ul h1 {
+font-family: sans-serif;
+font-size: 30px;
+}
+
+.footer-sec ul li {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.footer-sec ul li:hover {
+    color:#007bff;
+}
+.down-down {
+    flex-direction: row;
+    gap: 0;
+    display: flex;
+}
+
+.borer {
+    border-left: 0.2px solid rgb(255, 255, 255);
+
+}
+.copyright {
+    margin-top: 1rem;
+    text-align: center;
+
+    text-decoration: dashed;
+}
+@media screen and (max-width: 600px) {
+    .footer-down .down-down p {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 400px) {
+   .footer-down .just-text p {
+    font-size: 15px;
+    width: 90%;
+   }
 }

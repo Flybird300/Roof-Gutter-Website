@@ -25,9 +25,21 @@ import three from './three.jpg'
 import person from './person.png'
 import house from './home.png'
 import solar from './solar.png'
+import blob from './blob.svg'
+import face from './face.jpeg'
+import facetwo from './facetwo.jpeg'
+import facethree from './facethree.jpeg'
+import facefour from './facefour.jpeg'
+import hand from './hand.png'
 export default {
     label,
+    hand,
+    blob,
     arrow,
+    facefour,
+    facethree,
+    facetwo,
+    face,
     one,
     two,
     three,

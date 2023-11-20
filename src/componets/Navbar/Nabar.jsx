@@ -22,11 +22,10 @@ export const Navbar = () => {
 
         </div>
         <ul className='navbar-ul'>
-            <li><a href="">Home</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Gallery</a></li>
-            <li><a href="">Find Us</a></li>
-            <li><a href="">Staff</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/real">Staff</a></li>
+            <li><a href="/gallery">Gallery</a></li>
+            <li><a href="/Map">Find Us</a></li>
          
         </ul>
    

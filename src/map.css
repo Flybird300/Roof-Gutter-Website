@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.mapp {
+    height: 120vh;
+    padding-top: 4rem;
+    padding-bottom: 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    overflow-y: scroll;
+}
+.mapp h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.map-map {
+    overflow-y: scroll;
+    border: none;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: relative;
+}
+.overylay {
+    position: absolute;
+    width: 500px;
+    padding: 0;
+    margin: 0;
+    height: 450px;
+    background-color: rgba(22, 20, 20, 0.87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    flex-direction: column;
+}
+.overylay button {
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-radius: 1%;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.overylay button a {
+    line-height: 20px;
+    color: white;
+
+    font-size: 25px;
+    text-decoration: none;
+}
+.overylay img {
+    width: 50%;
+
+   
+
+
+
+}
+.overylay-close {
+    width: 100%;
+    margin-top: -4rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.overylay-close img {
+    width: 40px;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .overylay {
+        display: none;
+    }
+}

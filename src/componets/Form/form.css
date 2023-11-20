@@ -1,0 +1,204 @@
+.main-form {
+    display: flex;
+   flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem;
+ 
+}
+.form-headtext {
+    padding: 2rem 2rem;
+}
+.form-headtext h2 {
+    color: #fff;
+    font-family: Actor;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.side-form h4{
+    color: #C9C9C9;
+    font-family: Actor;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+} 
+.side-form p {
+    font-size: 16px;
+    font-family: Actor;
+    font-weight: 600;
+}   
+.side-form {
+    display: flex;
+    flex: 0.8;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem 1.5rem;
+    background-image:  url(../../assets/frame.png);
+    background-position: 200%;
+    animation: bg-anim 10s infinite;
+    box-shadow: 1px 3.57627px 8.04661px 0px rgba(0, 0, 0, 0.05);
+    flex-direction: column;
+    background-size:  fit;
+    color: #fff;
+    gap:20px;
+    padding: 40px 40px;
+    
+}
+.side-form h2{
+    color: #FFF;
+    font-family: Actor;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.form-butt-div {
+    display: flex;
+    justify-content: flex-end;
+}
+.send-img {
+    position: absolute;
+    bottom: -5px;
+    right: 240px;
+}
+.parent-form{
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+}
+.app-form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    background-color: white;
+    flex:1.5;
+    position: relative;
+    gap: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    overflow: hidden;
+}
+.inputs {
+    margin-right: 2rem;
+}
+
+.app-form label{
+    display: block;
+    font-weight: 500;
+    font-family: Actor;
+    font-size: 14px;
+    padding-bottom: 5px;
+
+}
+.app-form input {
+    
+    padding: 8px 8px;
+    border: none;
+    border-bottom:1px solid gray;
+    
+    width: 200px;
+    outline:none;
+    margin-bottom: 1rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.name-row {
+    display: flex;
+}
+input:focus {
+    border-color: rgb(124, 124, 255);
+}
+.selection{
+    padding: 8px 8px;
+    border:1px solid gray;
+    border-radius: 5px;
+    width: 90%;
+    outline:none;
+}
+select:focus {
+    border-color: rgb(124, 124, 255);
+}
+textarea {
+    padding: 8px 8px;
+    border: none;
+    border-bottom:1px solid gray;
+    max-width: 200px;
+    max-height: 60px;
+    width: 200px;
+    outline:none;
+    margin-bottom: 1rem;
+    
+    box-sizing: border-box;
+}
+.info-button {
+    margin-top: 2rem;
+    padding: 4px 0px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+  background-color: rgb(27, 41, 107);
+    width: 180px;
+    align-self: center;
+    color: #fff;
+    font-family: Amiko;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 300% */
+    border: 0.4px solid black;
+}
+.Red {
+    color: rgb(221, 57, 57);
+    transition: 0.5;
+
+}
+@media screen and (max-width: 1000px){
+    .parent-form {
+        flex-direction: column;
+    }
+    .send-img {
+        display: none;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .main-form {
+        padding: 2rem 2rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .info-button {
+        padding: 0px 0px;
+        line-height: 30px; /* 300% */
+        width: 140px;
+    }
+    .side-form h2 {
+        font-size: 30px;
+    }
+    .parent-form {
+        height: 75%;
+    }
+    .form-headtext h2 {
+        font-size: 40px;
+    }
+
+    
+}
+@media screen and (max-width: 400px) {
+    .main-form {
+        padding: 1rem 1rem;
+    }
+   
+    
+}

@@ -3,13 +3,18 @@ import './App.css'
 import AboveNavbar from './componets/AboveNavbar/AboveNavbar'
 import { FacebookMsg } from './componets/FacebookMsg'
 import { Find } from './componets/Find/Find'
-import { Footer } from './componets/Footer/Footer'
+import Footer from './componets/Footer/Footer'
 import Gallery from './componets/Gallery/Gallery'
 import Hero from './componets/Hero/Hero'
 import Navbar from './componets/Navbar/Nabar'
 import Staff from './componets/Staff/Staff'
 import { Test } from './Test/Test'
-
+import { Map } from './Map'
+import { Real } from './componets/RealStaff/Real'
+import Galleryy from './componetss/Galleryy/Galleryy'
+import { Swiper } from './componets/Swiper/Swiper'
+import { Between } from './componets/Between/Between'
+import { Price } from './componets/Price/Price'
 function App() {
 
   
@@ -18,13 +23,17 @@ function App() {
     <AboveNavbar />
       <Navbar />
       <Hero />
+      <Between />
       <Staff />
+    
       <Gallery />
+      <Price />
       <Find />
       
-      <Test />
-     <FacebookMsg />
+   
       <Footer />
+      <FacebookMsg />
+     
     </>
   )
 }

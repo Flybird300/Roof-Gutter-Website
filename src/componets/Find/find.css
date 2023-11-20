@@ -43,7 +43,6 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 100%;
     position: absolute;
     gap: 20px;
     flex-wrap: wrap;
@@ -54,10 +53,10 @@
     align-content: center;
 }
 .location-div {
-    width: 200px;
-    height: 150px;
+    width: 15%;
+    height: 22%;
     padding: 2rem 2rem;
-    background-color: rgba(8, 7, 102, 0.932);
+    background-color: rgba(0, 0, 0, 0.932);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -71,5 +70,31 @@
 .location-div h1 {
     font-family: sans-serif;
     font-weight: 1000;
+    color:white;
+    
+    
+}
+.location p {
+    color:white;
+}
+@media screen and (max-width: 700px) {
+    .location-div h1 {
+        font-size: 25px;
+    }
+    .location-div p {
+        width: 100%;
+        font-size: 10px;
+        padding: 0;
+    }
+    .location-div {
+        padding: 1.5rem;
+        width:20%;
+    }
+}
+@media screen and (max-width: 674px) {
+    .location-div {
+        width: 31%;
+
+    }
     
 }

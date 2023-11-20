@@ -125,3 +125,24 @@ article h3 {
     align-items: center;
 }
    
+@media screen and (max-width: 820px) {
+    .title h2 {
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .title h2 {
+        font-size: 40px;
+    }
+    .stars {
+        width: 250px;
+    }
+    .textt{
+        width: 38%;
+        font-size: 100px;
+        text-align: center;
+    }
+    .textt h3{
+        font-size: 15px;
+    }
+}

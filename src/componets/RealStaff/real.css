@@ -1,0 +1,125 @@
+.real {
+    height: 100%;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 4rem;
+    padding-bottom: 4rem;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: #ffffff;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 6rem;
+    flex-wrap: wrap;
+  
+    overflow: hidden;
+
+
+}
+
+.box-box {
+    width:400px;
+    height: 400px;
+    background-repeat: no-repeat;
+   
+    overflow-x: hidden;
+
+    background-image: url(../../assets/blob.svg);
+    background-position: 50% 50%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.blobone {
+    background-image: url(../../assets//blobone.svg);
+    background-repeat: no-repeat;
+}
+.blobtwo {
+    background-image: url(../../assets/blobthree.svg);
+    background-repeat: no-repeat;
+
+}
+.blob {
+    width: 500px;
+    position: relative;
+}
+.blob:hover {
+    transform: ro;
+}
+.img {
+  
+
+
+border-radius: 30%;
+height: 170px;
+object-position: (-50%, -50%);
+
+}
+.box-box:hover .img {
+    border-radius: 40%;
+    transition: 1s;
+    transition-timing-function: ease-in;
+    transform: scale(1.15);
+}
+.box-box p {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+.box-box h4 {
+    font-size: 17px;
+    color:rgb(0, 0, 0);
+    font-family: cursive;
+}
+
+.real h1 {
+    font-size: 55px;
+    color:rgb(0, 0, 0);
+    margin-bottom: 2rem;
+    font-family: sans-serif;
+    font-weight: 1000;
+}
+@media screen and (max-width: 1150px) {
+   
+}
+@media screen and (max-width: 860px) {
+    .box {
+        flex-wrap: wrap;
+        
+    }
+   .box-box {
+    width:400px;
+    height: 330px;
+   }
+   
+    
+  
+   
+    
+}
+@media screen and (max-width: 460px) {
+
+    .box-box {
+       
+    }
+    .real {
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+    }
+    .real h1 {
+        font-size: 45px;
+    }
+
+}

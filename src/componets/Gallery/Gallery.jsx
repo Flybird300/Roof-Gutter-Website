@@ -13,9 +13,9 @@ const Gallery = () => {
     const { current } = scrollRef;
 
     if (direction === 'left') {
-      current.scrollLeft -= 1000;
+      current.scrollLeft -= 300;
     } else {
-      current.scrollLeft += 1000;
+      current.scrollLeft += 300;
     }
   };
 
@@ -30,12 +30,13 @@ const Gallery = () => {
         
     </div>
     <div className='ultra-text'>
-    <h1>FINEST STYILSTS </h1>
+    <h1>White Glove Service</h1>
 
   </div>
-  <img src={images.lineone} className="lineone" alt="/" />
 <div className='text-small'>
-  <p className="text-p">Founded in the end of 2019 in Everett, MA, Phoenix Barbershop was only possible because it combined the experience and talent of a professional with more than 30 years working as a barber, with the entrepreneurship, market vision and knowledge of a woman well ahead of your time.</p>
+  <p className="text-p">At All Arizona Plumbing, Heating & Air, our family-owned business, led by owner-operator Hazam, takes pride in delivering exceptional repair and replacement services at transparent, competitive prices. Available 365 days a year for same day-anyhour services anywhere along the Wasatch Front.
+
+Healing your home is our top priority and with our impeccable White-Glove Service and high-caliber, name-brand products. We back our work with industry-leading guarantees, warranties, and flexible financing options. </p>
 </div>
             </div>
         <div className="app__gallery-images">

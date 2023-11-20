@@ -64,7 +64,7 @@ export const Test = () => {
                                 
 
             <article className={position} key={id}>
-                  <img src={images.stars} onClick={() => scroll('left')} />
+                  <img className="stars" src={images.stars} onClick={() => scroll('left')} />
                 <div className="textt"> <h3><strong>"</strong>{text}<strong>"</strong></h3></div>
              
                 <p className='name'>|{name}|</p>
