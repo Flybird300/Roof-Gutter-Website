@@ -30,7 +30,7 @@ function App() {
       <Price />
       <Find />
       
-   
+  
       <Footer />
       <FacebookMsg />
      
